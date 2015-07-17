@@ -1,7 +1,7 @@
 <?php
 
 
-namespace ;
+namespace jeep\Http\Controllers;
 
 class MyFirstEloquentObject extends Eloquent {
     

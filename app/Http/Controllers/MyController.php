@@ -4,10 +4,20 @@
  * User: kkopicki
  */
 
-namespace App\Http\Controllers;
+namespace jeep\Http\Controllers;
 
+use App\User;
+use App\Http\Controllers\Controller;
 
-class MyController
-{
+class UserController extends Controller {
+    /**
+     * Show the profile for a given user.
+     *
+     * @param int $id
+     * @return Response
+     */
 
+    public function showProfile($id) {
+        return view('user.profile', ['user' => User::findOrFail($id)]);
+    }
 }
