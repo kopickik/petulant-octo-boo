@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: jeep
+        psr4_prefix: jeep
+        src_path: app
