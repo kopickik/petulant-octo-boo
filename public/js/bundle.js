@@ -8,10 +8,8 @@
 var myApp = require('./myApp.js');
 
 },{"./myApp.js":2}],2:[function(require,module,exports){
-"use strict";
+'use strict';
 
-/**
- * Created by kkopicki on 7/14/15.
- */
+console.log('Greetings.');
 
 },{}]},{},[1]);

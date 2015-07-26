@@ -1,46 +1,15 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Laravel</title>
+@extends('master')
 
-        <link href="//fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
-
-        <style>
-            html, body {
-                height: 100%;
-            }
-
-            body {
-                margin: 0;
-                padding: 0;
-                width: 100%;
-                display: table;
-                font-weight: 100;
-                font-family: 'Lato';
-            }
-
-            .container {
-                text-align: center;
-                display: table-cell;
-                vertical-align: middle;
-            }
-
-            .content {
-                text-align: center;
-                display: inline-block;
-            }
-
-            .title {
-                font-size: 96px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="container">
-            <div class="content">
-                <div class="title">Laravel 5</div>
-            </div>
+@section('content')
+    <div class="container">
+        <div class="content">
+            <div class="title">Laravel 5</div>
+            <svg xmlns="http://www.w3.org/2000/svg">
+              <g id="shapes">
+              <circle cx="40" cy="40" r="24" fill="#00cc00"/>
+              <rect x="100" y="20" height="50" width="50" fill="#ff3300"/>  
+              </g>
+            </svg>
         </div>
-    </body>
-    <script src="js/bundle.js"></script>
-</html>
+    </div>
+@stop

@@ -10,11 +10,28 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:100">
+        
+        <link rel="stylesheet" href="css/foundation.css">
+        <link rel="stylesheet" href="css/app.css">
+
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     </head>
     <body>
+    <div class="container">
+        @include('partials.topbar')
 
-    <h1>Word</h1>
+        @yield('content')
+    </div>
+
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/foundation.js"></script>
+    <script src="js/bundle.js"></script>
+    <script>
+    $(document).foundation();
+    </script>
 
     </body>
 </html>

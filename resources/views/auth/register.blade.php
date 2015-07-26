@@ -1,3 +1,6 @@
+@extends('master')
+@section('content')
+
 <!-- resources/views/auth/register.blade.php -->
 
 <form method="POST" action="/auth/register">
@@ -28,3 +31,4 @@
     </div>
 </form>
 
+@stop

@@ -28,7 +28,7 @@ Route::get('about', function() {
     return view('about');
 });
 
-Route::get('user/{$id}', 'MyController@showProfile');
+Route::get('user/{id}', 'UsersController@showProfile');
 
 /* ************ ************ ************ ************ ************ ************ ************ ************
 ** Sub-domain routing example
