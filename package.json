@@ -5,7 +5,8 @@
     "winston": "^1.0.1"
   },
   "dependencies": {
+    "bootstrap-sass": "^3.0.0",
     "laravel-elixir": "^2.0.0",
-    "bootstrap-sass": "^3.0.0"
+    "urlify": "^0.3.6"
   }
 }

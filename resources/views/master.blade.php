@@ -10,10 +10,9 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:100">
-        
         <link rel="stylesheet" href="css/foundation.css">
         <link rel="stylesheet" href="css/app.css">
+        <script src="//use.typekit.net/rpw0svh.js"></script>
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     </head>
@@ -32,6 +31,7 @@
     <script>
     $(document).foundation();
     </script>
+    <script>try{Typekit.load();}catch(e){}</script>
 
     </body>
 </html>

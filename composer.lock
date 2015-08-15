@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5c6026b96e6fa11a641b51a6ba976f5e",
+    "hash": "dedc552c250021949ce1bacb4f3183a2",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -781,6 +781,39 @@
                 "php"
             ],
             "time": "2015-05-02 15:40:40"
+        },
+        {
+            "name": "o2s/users",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sgrover/o2susers.git",
+                "reference": "475d72f3b325894ace2420f8ee728119d25f6197"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sgrover/o2susers/zipball/475d72f3b325894ace2420f8ee728119d25f6197",
+                "reference": "475d72f3b325894ace2420f8ee728119d25f6197",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "O2s\\Users\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Shawn Grover",
+                    "email": "sgrover@open2space.com"
+                }
+            ],
+            "description": "Basic Laravel 5 User Management",
+            "time": "2015-07-23 06:49:41"
         },
         {
             "name": "psr/log",
@@ -2922,7 +2955,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "o2s/users": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
