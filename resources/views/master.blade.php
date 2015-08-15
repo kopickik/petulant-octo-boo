@@ -21,7 +21,7 @@
         @include('partials.topbar')
 
         @yield('content')
-        <div class="phaser-demo"></div>
+        <div class="phaser-demo" id="phaser-demo"></div>
     </div>
 
 
