@@ -95585,6 +95585,7 @@ var player;
 var starfield;
 var cursors;
 var bank;
+var shipTrail; // particles :)
 var ACCELERATION = 600;
 var DRAG = 400;
 var MAXSPEED = 400;
@@ -95592,6 +95593,14 @@ var MAXSPEED = 400;
 function preload() {
     game.load.image('starfield', 'images/starfield.png');
     game.load.image('ship', 'images/player.png');
+    game.load.image('bullet', 'images/bullet.png');
+    game.load.image('enemy-green', 'images/enemy-green.png');
+    game.load.image('enemy-blue', 'images/enemy-blue.png');
+    game.load.image('blueEnemyBullet', 'images/enemy-blue-bullet.png');
+    game.load.spritesheet('explosion', 'images/explode.png');
+    game.load.bitmapFont('spacefont', 'images/spacefont/spacefont.png', 'images/spacefont/spacefont.xml');
+    game.load.image('boss', 'images/boss.png');
+    game.load.image('deathRay', 'images/death-ray.png');
 }
 
 function create() {
