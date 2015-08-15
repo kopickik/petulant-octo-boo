@@ -27,6 +27,7 @@
 
     <script src="js/jquery.js"></script>
     <script src="js/foundation.js"></script>
+    <script src="//cdn.jsdelivr.net/phaser/2.4.2/phaser.js"></script>
     <script src="js/bundle.js"></script>
     <script>
     $(document).foundation();
