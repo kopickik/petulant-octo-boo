@@ -10,12 +10,11 @@
   <section class="top-bar-section">
     <!-- Right Nav Section -->
     <ul class="right">
-      <li class="active"><a href="#">Right Button Active</a></li>
       <li class="has-dropdown">
-        <a href="#">Right Button Dropdown</a>
+        <a href="#">Menu</a>
         <ul class="dropdown">
-          <li><a href="#">First link in dropdown</a></li>
-          <li class="active"><a href="#">Active link in dropdown</a></li>
+          <li><a href="about">About</a></li>
+          <li><a href="draft-results">2015 Draft Results</a></li>
         </ul>
       </li>
     </ul>

@@ -52,3 +52,7 @@ Route::get('pinfo/1', function() {
     return 'routes file is nice.';
 });
 
+Route::get('draft-results', function() {
+    return view('draft-results');
+});
+

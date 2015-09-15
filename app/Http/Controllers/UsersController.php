@@ -20,6 +20,7 @@ class UsersController extends Controller {
      *
      * @param UserRepository $users
      */
+
     public function __construct(UserRepository $users) {
         $this->users = $users;
     }

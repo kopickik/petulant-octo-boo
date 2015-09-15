@@ -27,6 +27,7 @@
 
     <script src="js/jquery.js"></script>
     <script src="js/foundation.js"></script>
+    <script src="js/angular.js"></script>
     <script src="js/bundle.js"></script>
     <script>
     $(document).foundation();

@@ -12,4 +12,5 @@
             </svg>
         </div>
     </div>
+    <div id="log"></div>
 @stop
